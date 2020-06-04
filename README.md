@@ -16,7 +16,7 @@ docker create -t -i -v /Path/To/Your/Repo:/app -t lpr-gcloud /bin/bash
 ```
 Run or exec the script into the container
 ```
-python3.7 main.py image/file
+docker exec -it tender_dirac python3.7 main.py image/linux/format/path/file.jpg
 ```
 
 ## Tools
