@@ -12,6 +12,7 @@ Read the docs: https://cloud.google.com/vision/docs/setup
 
 **Docker**. This is an image from [gcr.io/google.com/cloudsdktool/cloud-sdk:latest](https://github.com/GoogleCloudPlatform/cloud-sdk-docker)
 ```
+docker build . -t lpr-gcloud
 docker create -t -i -v /Path/To/Your/Repo:/app -t lpr-gcloud /bin/bash
 ```
 Run or exec the script into the container
