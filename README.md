@@ -1,8 +1,11 @@
 # lpr-gcloud
+
+
 LPR with Google Cloud Vision AI with [Python Client Library](https://cloud.google.com/vision/docs/libraries#client-libraries-install-python).
 
 This is a simple lib to use Google  Cloud to read Licens Plate numbers.
 
+![image](https://user-images.githubusercontent.com/14354821/127286974-9b9e5f07-3d3e-4c69-8dfe-2e78f021e2e1.png)
 ## How it works
 The script find the object "Licens Plate", crop the plate, and detect the plate text.
 ## Getting Started
